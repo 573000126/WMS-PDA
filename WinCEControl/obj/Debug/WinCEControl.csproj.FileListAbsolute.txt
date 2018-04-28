@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\bin\Debug\WinCEControl.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\bin\Debug\WinCEControl.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\obj\Debug\WinCEControl.TextBoxInput.resources
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\obj\Debug\WinCEControl.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\obj\Debug\WinCEControl.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEControl\obj\Debug\WinCEControl.pdb

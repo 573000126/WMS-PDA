@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\obj\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PubSubApi\obj\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\obj\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\PubSubApi\obj\Debug\PubSubApi.pdb

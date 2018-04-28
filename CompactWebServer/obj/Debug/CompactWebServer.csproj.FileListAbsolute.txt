@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\bin\Debug\CompactWebServer.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\bin\Debug\CompactWebServer.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\obj\Debug\CompactWebServer.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\CompactWebServer\obj\Debug\CompactWebServer.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\bin\Debug\CompactWebServer.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\bin\Debug\CompactWebServer.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\obj\Debug\CompactWebServer.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\CompactWebServer\obj\Debug\CompactWebServer.pdb

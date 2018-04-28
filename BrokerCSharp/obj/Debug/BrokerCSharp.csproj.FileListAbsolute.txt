@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\BrokerCSharp.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\BrokerCSharp.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\CompactWebServer.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\bin\Debug\CompactWebServer.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\obj\Debug\BrokerCSharp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\obj\Debug\BrokerCSharp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\obj\Debug\BrokerCSharp.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BrokerCSharp\obj\Debug\BrokerCSharp.pdb

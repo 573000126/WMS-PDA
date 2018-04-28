@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\bin\Debug\BatchEditSlotDemo.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\bin\Debug\BatchEditSlotDemo.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\obj\Debug\BatchEditSlotDemo.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\obj\Debug\BatchEditSlotDemo.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\BatchEditSlotDemo\bin\Debug\ZC.HttpUtils.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\BatchEditSlotDemo\obj\Debug\BatchEditSlotDemo.exe
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\BatchEditSlotDemo\obj\Debug\BatchEditSlotDemo.pdb

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\obj\Debug\PublisherCSharp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\obj\Debug\PublisherCSharp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\bin\Debug\PublisherCSharp.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\bin\Debug\PublisherCSharp.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\obj\Debug\PublisherCSharp.exe
+C:\Users\Administrator\Desktop\MESCloudNew\wince\PublisherCSharp\obj\Debug\PublisherCSharp.pdb

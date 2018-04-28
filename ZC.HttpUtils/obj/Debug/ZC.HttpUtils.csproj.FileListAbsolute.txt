@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\ZC.HttpUtils\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\ZC.HttpUtils\bin\Debug\ZC.HttpUtils.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\ZC.HttpUtils\bin\Debug\ZC.HttpUtils.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\ZC.HttpUtils\obj\Debug\ZC.HttpUtils.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\ZC.HttpUtils\obj\Debug\ZC.HttpUtils.pdb

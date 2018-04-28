@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\bin\Debug\WinCEUtils.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\bin\Debug\WinCEUtils.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\obj\Debug\WinCEUtils.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\obj\Debug\WinCEUtils.pdb
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\MESCloudNew\wince\WinCEUtils\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\bin\Debug\WinCEUtils.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\bin\Debug\WinCEUtils.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\bin\Debug\PubSubApi.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\bin\Debug\PubSubApi.pdb
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\obj\Debug\WinCEUtils.dll
+C:\Users\Administrator\Desktop\LY.WMSCloud\wince\WinCEUtils\obj\Debug\WinCEUtils.pdb
