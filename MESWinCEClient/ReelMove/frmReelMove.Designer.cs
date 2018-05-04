@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem();
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem();
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem();
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem();
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem();
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem();
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labReel = new System.Windows.Forms.Label();
@@ -50,10 +50,14 @@
             this.cboIQCCheckId = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtQty = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panKW.SuspendLayout();
             this.panReelInfo.SuspendLayout();
             this.panReceiveds.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
@@ -113,27 +117,27 @@
             this.lvwReelInfo.Columns.Add(this.reelV);
             this.lvwReelInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.lvwReelInfo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
-            listViewItem1.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem1.Text = "料卷号";
-            listViewItem2.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem2.Text = "料号";
-            listViewItem3.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem3.Text = "数量";
-            listViewItem4.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem4.Text = "生产日期";
-            listViewItem5.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem5.Text = "批号";
-            listViewItem6.BackColor = System.Drawing.SystemColors.Control;
-            listViewItem6.Text = "供应商";
-            this.lvwReelInfo.Items.Add(listViewItem1);
-            this.lvwReelInfo.Items.Add(listViewItem2);
-            this.lvwReelInfo.Items.Add(listViewItem3);
-            this.lvwReelInfo.Items.Add(listViewItem4);
-            this.lvwReelInfo.Items.Add(listViewItem5);
-            this.lvwReelInfo.Items.Add(listViewItem6);
-            this.lvwReelInfo.Location = new System.Drawing.Point(0, 113);
+            listViewItem13.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem13.Text = "料卷号";
+            listViewItem14.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem14.Text = "料号";
+            listViewItem15.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem15.Text = "数量";
+            listViewItem16.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem16.Text = "生产日期";
+            listViewItem17.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem17.Text = "批号";
+            listViewItem18.BackColor = System.Drawing.SystemColors.Control;
+            listViewItem18.Text = "供应商";
+            this.lvwReelInfo.Items.Add(listViewItem13);
+            this.lvwReelInfo.Items.Add(listViewItem14);
+            this.lvwReelInfo.Items.Add(listViewItem15);
+            this.lvwReelInfo.Items.Add(listViewItem16);
+            this.lvwReelInfo.Items.Add(listViewItem17);
+            this.lvwReelInfo.Items.Add(listViewItem18);
+            this.lvwReelInfo.Location = new System.Drawing.Point(0, 141);
             this.lvwReelInfo.Name = "lvwReelInfo";
-            this.lvwReelInfo.Size = new System.Drawing.Size(238, 73);
+            this.lvwReelInfo.Size = new System.Drawing.Size(238, 52);
             this.lvwReelInfo.TabIndex = 17;
             this.lvwReelInfo.View = System.Windows.Forms.View.Details;
             // 
@@ -155,18 +159,18 @@
             this.panKW.Dock = System.Windows.Forms.DockStyle.Top;
             this.panKW.Location = new System.Drawing.Point(0, 60);
             this.panKW.Name = "panKW";
-            this.panKW.Size = new System.Drawing.Size(238, 53);
+            this.panKW.Size = new System.Drawing.Size(238, 51);
             // 
             // txtmag
             // 
             this.txtmag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.txtmag.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtmag.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular);
-            this.txtmag.Location = new System.Drawing.Point(0, 186);
+            this.txtmag.Location = new System.Drawing.Point(0, 193);
             this.txtmag.Multiline = true;
             this.txtmag.Name = "txtmag";
             this.txtmag.ReadOnly = true;
-            this.txtmag.Size = new System.Drawing.Size(238, 51);
+            this.txtmag.Size = new System.Drawing.Size(238, 45);
             this.txtmag.TabIndex = 22;
             // 
             // panReelInfo
@@ -206,9 +210,35 @@
             // 
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 237);
+            this.panel2.Location = new System.Drawing.Point(0, 238);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(238, 33);
+            this.panel2.Size = new System.Drawing.Size(238, 32);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.txtQty);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 111);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(238, 30);
+            this.panel1.Visible = false;
+            // 
+            // txtQty
+            // 
+            this.txtQty.Location = new System.Drawing.Point(73, 3);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(156, 23);
+            this.txtQty.TabIndex = 16;
+            this.txtQty.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQty_KeyPress);
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular);
+            this.label2.Location = new System.Drawing.Point(3, 8);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 20);
+            this.label2.Text = "数量";
             // 
             // frmReelMove
             // 
@@ -217,6 +247,7 @@
             this.Controls.Add(this.txtmag);
             this.Controls.Add(this.lvwReelInfo);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panKW);
             this.Controls.Add(this.panReelInfo);
             this.Controls.Add(this.panReceiveds);
@@ -230,6 +261,7 @@
             this.panReelInfo.ResumeLayout(false);
             this.panReceiveds.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -252,5 +284,8 @@
         private System.Windows.Forms.ComboBox cboIQCCheckId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox txtQty;
+        private System.Windows.Forms.Label label2;
     }
 }

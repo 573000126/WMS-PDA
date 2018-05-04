@@ -48,6 +48,8 @@ namespace MESWinCEClient.ReelMove
             {
                 labReel.Text = "库位标签";
             }
+
+            txtQty.Text = "0";
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -75,7 +77,22 @@ namespace MESWinCEClient.ReelMove
                 }
 
 
-                ReelMoveDto que = new ReelMoveDto() { BarCode = txtBarCode.Text, IQCCheckId = cboIQCCheckId.Text, ExtendShelfLife = 0, IsContinuity = ckbIsContinuity.Checked, ShlefLab = txtShlefLab.Text, ReelMoveMethodId = _reelMoveMethod.Id, IsReturnReel = IsLineReturn };
+                ReelMoveDto que = new ReelMoveDto() { ReturnReelQty = int.Parse(txtQty.Text), BarCode = txtBarCode.Text, IQCCheckId = cboIQCCheckId.Text, ExtendShelfLife = 0, IsContinuity = ckbIsContinuity.Checked, ShlefLab = txtShlefLab.Text, ReelMoveMethodId = _reelMoveMethod.Id, IsReturnReel = IsLineReturn };
+                // 检查是否有退料
+                if (_reelMoveMethod.AllocationTypes.Contains(AllocationType.Return) && que.ReturnReelQty == 0)
+                {
+                    var ressld = WinCEUtils.HttpHelp.PostAbp<ReelMoveResDto>("/api/services/app/Reel/GetIsReturnReel", que).Result;
+                    if (ressld.IsContinuity)
+                    {
+                        txtmag.Text = "提示: 检测到为退料料盘，请输入现有料盘数量。";
+                        txtQty.Text = ressld.Reel.Qty.ToString();
+                        panel1.Visible = true;
+                        txtQty.Focus();
+                        txtQty.SelectAll();
+                        return;
+                    }
+                }
+
 
                 // 如果有收料先检查收料单
                 if (_reelMoveMethod.AllocationTypes.Contains(AllocationType.Received) && panReceiveds.Visible)
@@ -119,7 +136,7 @@ namespace MESWinCEClient.ReelMove
                         return;
                     }
                 }
-                que = new ReelMoveDto() { BarCode = txtBarCode.Text, IQCCheckId = cboIQCCheckId.Text, ExtendShelfLife = 0, IsContinuity = ckbIsContinuity.Checked, ShlefLab = txtShlefLab.Text, ReelMoveMethodId = _reelMoveMethod.Id, IsReturnReel = IsLineReturn };
+                que = new ReelMoveDto() { ReturnReelQty = int.Parse(txtQty.Text), BarCode = txtBarCode.Text, IQCCheckId = cboIQCCheckId.Text, ExtendShelfLife = 0, IsContinuity = ckbIsContinuity.Checked, ShlefLab = txtShlefLab.Text, ReelMoveMethodId = _reelMoveMethod.Id, IsReturnReel = IsLineReturn };
 
                 // 进行上架
                 var res = WinCEUtils.HttpHelp.PostAbp<ReelMoveResDto>("/api/services/app/Reel/ReelMove", que);
@@ -178,18 +195,7 @@ namespace MESWinCEClient.ReelMove
 
                         // 当前库位亮灯
 
-                        // 亮灯暂时未添加
-                        if (panKW.Visible)
-                        {
-                            HttpHelp.Post<LightMsg>(lightSer + "/api/Light/LightOrder", new StorageLight[] { new StorageLight() 
-                            { 
-                                ContinuedTime = 10,
-                                LightColor =lightIsRGB? LightColor.Green:LightColor.Default, 
-                                LightOrder = 2, 
-                                MainBoardId = storageLocationDto.MainBoardId, 
-                                RackPositionId = storageLocationDto.PositionId 
-                            } });
-                        }
+                        
                     }
                     else
                     {
@@ -205,7 +211,18 @@ namespace MESWinCEClient.ReelMove
                         }
                     }
 
-
+                    // 亮灯暂时未添加
+                    if (panKW.Visible)
+                    {
+                        HttpHelp.Post<LightMsg>(lightSer + "/api/Light/LightOrder", new StorageLight[] { new StorageLight() 
+                            { 
+                                ContinuedTime = 10,
+                                LightColor =lightIsRGB? LightColor.Green:LightColor.Default, 
+                                LightOrder = 2, 
+                                MainBoardId = storageLocationDto.MainBoardId, 
+                                RackPositionId = storageLocationDto.PositionId 
+                            } });
+                    }
                 }
                 else  // 失败后从 失败提示里面解析错误信息
                 {
@@ -215,6 +232,9 @@ namespace MESWinCEClient.ReelMove
                     txtBarCode.Focus();
                     txtBarCode.SelectAll();
                 }
+
+                panel1.Visible = false;
+                txtQty.Text = "0";
 
             }
         }
@@ -254,6 +274,24 @@ namespace MESWinCEClient.ReelMove
         private void frmReelMove_Load(object sender, EventArgs e)
         {
             this.Text = _reelMoveMethod.Name;
+        }
+
+        private void txtQty_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(Char.IsNumber(e.KeyChar)) && e.KeyChar != (char)13 && e.KeyChar != (char)8)
+            {
+                e.Handled = true;
+
+            }
+            else
+            {
+                if (e.KeyChar == 13)
+                {
+                    txtBarCode_KeyPress(sender, e);
+                }
+            }
+
+
         }
 
 

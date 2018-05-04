@@ -5,7 +5,8 @@ using System.Text;
 
 namespace MESWinCEClient.ReelMove.Dtos
 {
-    public class ReelMoveDto
+    public class
+        ReelMoveDto
     {
         public string BarCode { get; set; }
 
@@ -21,6 +22,8 @@ namespace MESWinCEClient.ReelMove.Dtos
         public bool IsContinuity { get; set; }
 
         public bool IsReturnReel { get; set; }
+
+        public int ReturnReelQty { get; set; }
     }
 
     public class ReelMoveResDto
